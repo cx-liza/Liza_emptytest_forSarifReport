@@ -5,9 +5,7 @@ on:
       - main
       - master
       - dev
-  #schedule:
-  #  - cron: "*/5 * * * *"
-    
+      
 jobs:
   build:
     runs-on: ubuntu-latest
